@@ -1,8 +1,8 @@
 <?php
-class Animal {
-    public $nombre;
+abstract class Animal {
+    private $nombre;
 
-    function __contruct($nombre) {
+    function __construct($nombre) {
         $this->nombre = $nombre;
     }
 
